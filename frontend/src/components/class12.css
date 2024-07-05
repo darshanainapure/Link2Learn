@@ -1,0 +1,61 @@
+/* class11.css */
+
+/* Header styles */
+.class11-header {
+    padding: 40px 0;
+    background-color: #151719; /* Dark background color */
+    color: #fff; /* Light text color */
+    text-align: center;
+  }
+  
+  .class11-header h1 {
+    font-size: 36px;
+  }
+  
+  .class11-header .lead {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Button styles */
+  .resource-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .button-wrapper {
+    margin: 0 15px; /* Adjust the margin between buttons */
+  }
+  
+  .btn {
+    font-size: 18px;
+    padding: 12px 24px;
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+  }
+  
+  .btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #151719; /* Dark background color */
+    color: #fff; /* Light text color */
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #151719; /* Dark background color */
+    color: #fff; /* Light text color */
+    padding: 10px 0;
+    text-align: center;
+  }
+  

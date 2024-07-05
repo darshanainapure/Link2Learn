@@ -1,0 +1,48 @@
+import React from "react";
+import { Container, Button } from "react-bootstrap";
+import { FaYoutube } from "react-icons/fa"; 
+
+function Class9math() {
+  const handleSeeSyllabusClick = () => {
+    window.open("https://ncert.nic.in/textbook.php?iemh1=0-12", "_blank");
+  };
+
+  const handleDownloadBookClick = () => {
+    window.open("https://ncert.nic.in/textbook/textbook.htm", "_blank");
+  };
+
+  const handleYoutubeClick = () => {
+    window.open("https://youtube.com/playlist?list=PLVLoWQFkZbhW1YSpUGOUrqAu7SvJCaZNQ&si=eU7VCjbCmdeCuPcb", "_blank"); // Replace with your YouTube link
+  };
+
+  return (
+    <Container>
+      <h1>Class 9 Maths</h1>
+      <Button 
+        variant="primary" 
+        onClick={handleSeeSyllabusClick} 
+        style={{ marginRight: '10px' }}
+      >
+        See Syllabus Online
+      </Button>
+      <Button 
+        variant="secondary" 
+        onClick={handleDownloadBookClick}
+        style={{ marginRight: '10px' }}
+      >
+        Download Book
+      </Button>
+      <Button 
+          variant="danger" 
+          onClick={handleYoutubeClick}
+          style={{ marginRight: '10px' }}
+        >
+          <FaYoutube style={{ marginRight: '5px' }} /> YouTube
+        </Button>
+    </Container>
+  );
+}
+
+export default Class9math;
+
+

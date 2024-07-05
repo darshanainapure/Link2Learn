@@ -1,0 +1,52 @@
+body, html, #root {
+  height: 100%;
+}
+
+.light-mode {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.dark-mode {
+  background-color: #212529;
+  color: #f8f9fa;
+}
+
+.dark-mode .navbar {
+  background-color: #343a40 !important;
+}
+
+.dark-mode .content {
+  background-color: #212529;
+  color: #f8f9fa;
+}
+.chatbot-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.chatbot-container .react-chatbot-kit-chat-container {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.chatbot-toggle-button {
+  background-color: #376B7E;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.chatbot-toggle-button img {
+  width: 50%;
+  height: 50%;
+}
+
+
+/* Additional styles to ensure dark mode is applied correctly */
